@@ -125,11 +125,29 @@ body{
   border-radius: 5px;
   margin-bottom: 20px;
   position: relative;
+  font-size: 30px;
 }
 .texto{
   position: relative;
   color: black;
   padding: 20px;
+}
+.texto h3{
+  font-size: 20px;
+}
+.texto .info{
+  padding-left: 10px;
+}
+.texto h4{
+  font-size: 17px;
+}
+.texto .despedida{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.texto b{
+  font-size: 20px;
 }
 hr{
   width: 97%;
@@ -150,9 +168,12 @@ hr{
 .comentarios textarea{
   display: block;
   margin: 5px 40px 30px;
-  width: 80%;
-  height: 50px;
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 50px;
+  max-height: 100px;
   margin-bottom: 15px;
+  outline: none;
 }
 .inter-comentario{
   color: white;

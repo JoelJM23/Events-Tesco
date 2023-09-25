@@ -109,6 +109,12 @@ body{
   margin-bottom: 20px;
   position: relative;
 }
+.principal h2{
+  font-size: 40px;
+}
+.principal p{
+  font-size: 20px;
+}
 .principal:after{
   position: absolute;
   top: 0;
