@@ -5,6 +5,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+html::-webkit-scrollbar{
+  display: none;
+}
 
 header{
   top:0;
